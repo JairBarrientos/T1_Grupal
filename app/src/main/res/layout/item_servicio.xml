@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tvInfoServicio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="15sp"/>
+
+    <Button android:id="@+id/btnEditar" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Editar" android:textSize="11sp" android:minWidth="0dp"
+        android:paddingLeft="8dp" android:paddingRight="8dp"/>
+
+    <Button android:id="@+id/btnEliminar" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Eliminar" android:textSize="11sp" android:backgroundTint="#D32F2F" android:minWidth="0dp"
+        android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_marginStart="4dp"/>
+
+</LinearLayout>

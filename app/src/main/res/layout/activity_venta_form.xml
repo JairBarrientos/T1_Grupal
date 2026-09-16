@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nueva Venta"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cliente:"
+        android:layout_marginTop="8dp"/>
+
+    <Spinner
+        android:id="@+id/spCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de item:"
+        android:layout_marginTop="12dp"/>
+
+    <Spinner
+        android:id="@+id/spTipoItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item:"
+        android:layout_marginTop="8dp"/>
+
+    <Spinner
+        android:id="@+id/spItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad"
+        android:inputType="number"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnAgregarItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Item al Carrito"
+        android:layout_marginTop="8dp"/>
+
+    <ListView
+        android:id="@+id/lvDetalles"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: S/ 0.00"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnRegistrarVenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Venta"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

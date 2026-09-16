@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reportes"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvFechaInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha inicio: no seleccionada"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnFechaInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Fecha Inicio"/>
+
+    <TextView
+        android:id="@+id/tvFechaFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha fin: no seleccionada"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnFechaFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Fecha Fin"/>
+
+    <Button
+        android:id="@+id/btnGenerarReporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generar Reporte"
+        android:layout_marginTop="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/tvResultadoReporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"/>
+
+    </ScrollView>
+
+</LinearLayout>
