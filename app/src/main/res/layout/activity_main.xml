@@ -3,14 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="20dp"
+    android:background="#F3F9F7">
 
     <TextView
         android:id="@+id/tvBienvenida"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
+        android:textSize="22sp"
         android:textStyle="bold"
+        android:textColor="#235347"
         android:layout_marginBottom="16dp"/>
 
     <ScrollView
@@ -24,28 +26,28 @@
             android:orientation="vertical">
 
             <Button android:id="@+id/btnClientes" android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:text="Clientes" android:layout_marginTop="8dp"/>
+                android:layout_height="wrap_content" android:text="Clientes" android:layout_marginTop="8dp" android:backgroundTint="#8EB6B9" android:textColor="#163B33" android:minHeight="50dp"/>
 
             <Button android:id="@+id/btnPacientes" android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:text="Pacientes (Mascotas)" android:layout_marginTop="8dp"/>
+                android:layout_height="wrap_content" android:text="Pacientes (Mascotas)" android:layout_marginTop="8dp" android:backgroundTint="#8EB6B9" android:textColor="#163B33" android:minHeight="50dp"/>
 
             <Button android:id="@+id/btnPersonal" android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:text="Veterinarios / Asistentes" android:layout_marginTop="8dp"/>
+                android:layout_height="wrap_content" android:text="Veterinarios / Asistentes" android:layout_marginTop="8dp" android:backgroundTint="#8EB6B9" android:textColor="#163B33" android:minHeight="50dp"/>
 
             <Button android:id="@+id/btnProductos" android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:text="Productos" android:layout_marginTop="8dp"/>
+                android:layout_height="wrap_content" android:text="Productos" android:layout_marginTop="8dp" android:backgroundTint="#8EB6B9" android:textColor="#163B33" android:minHeight="50dp"/>
 
             <Button android:id="@+id/btnServicios" android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:text="Servicios" android:layout_marginTop="8dp"/>
+                android:layout_height="wrap_content" android:text="Servicios" android:layout_marginTop="8dp" android:backgroundTint="#8EB6B9" android:textColor="#163B33" android:minHeight="50dp"/>
 
             <Button android:id="@+id/btnAtenciones" android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:text="Atención al Paciente" android:layout_marginTop="8dp"/>
+                android:layout_height="wrap_content" android:text="Atención al Paciente" android:layout_marginTop="8dp" android:backgroundTint="#8EB6B9" android:textColor="#163B33" android:minHeight="50dp"/>
 
             <Button android:id="@+id/btnVentas" android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:text="Ventas" android:layout_marginTop="8dp"/>
+                android:layout_height="wrap_content" android:text="Ventas" android:layout_marginTop="8dp" android:backgroundTint="#8EB6B9" android:textColor="#163B33" android:minHeight="50dp"/>
 
             <Button android:id="@+id/btnReportes" android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:text="Reportes" android:layout_marginTop="8dp"/>
+                android:layout_height="wrap_content" android:text="Reportes" android:layout_marginTop="8dp" android:backgroundTint="#8EB6B9" android:textColor="#163B33" android:minHeight="50dp"/>
 
         </LinearLayout>
     </ScrollView>
@@ -55,7 +57,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Cerrar Sesión"
-        android:backgroundTint="#D32F2F"
+        android:backgroundTint="#B65757"
+        android:textColor="#FFFFFF"
+        android:minHeight="50dp"
         android:layout_marginTop="16dp"/>
 
 </LinearLayout>
